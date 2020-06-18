@@ -5,8 +5,8 @@ The main motivation behind this *code snippet* or I would say a demo android app
 
 The Connection of the different components of the App is as follows :
 
-             ->                ->
-MainActivity     MainViewModel     FakeRepository
-              <-               <-
+                            
+MainActivity   ->  MainViewModel   ->  FakeRepository
+            
 N.B: **->** represents the flow of data.
 
